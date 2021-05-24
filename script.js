@@ -70,3 +70,23 @@ printNum2();*/
   }
 }
 printNum3();*/
+
+//#7 create a private counter with closure
+/*function counter() {
+  let _count = 0;
+
+  return {
+    increment: function () {
+      _count++;
+    },
+    getCount: function () {
+      return _count;
+    },
+  };
+}
+
+let _counter = counter();
+_counter.increment();
+_counter.increment();
+_counter.increment();
+console.log(_counter.getCount());*/
